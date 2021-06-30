@@ -46,4 +46,7 @@ export class AppComponent  {
       console.log(this.selected_seats)
 
     }
+    testbtn(){
+      console.log('click on the test btn');
+    }
 }
