@@ -1,0 +1,31 @@
+.seats{
+  width: 400px;
+}
+.seats ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  padding:0;
+  margin:0;
+  height: 105px;
+}
+
+.seats ul li{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border: 1px solid black;
+  box-sizing: border-box;
+  align-items:center;
+  justify-content: center;
+  padding: 0;
+  margin:0 5px 5px 0;
+}
+.seats ul li.disabled{
+  background: gray;
+
+}
+.seats ul li.selected{
+  background: green;
+}
